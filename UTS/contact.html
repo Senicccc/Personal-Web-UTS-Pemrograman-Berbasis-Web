@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- JS -->
+    <script src="js/script-index.js"></script>
+    
+    <!-- CSS -->
+    <link href="css/style.css" rel="stylesheet" />
+
+    <!-- Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>UTS- Contact</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <h1 class="navbar-title">Nicholas-J</h1>
+      <div class="burger-menu">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <div class="navbar-nav">
+        <a href="index.html">Home</a>
+        <a href="contact.html">Contact</a>
+        <a href="about-me.html">About Me</a>
+        <a href="pemrograman-web.html">Pemrograman Web</a>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Contact -->
+    <section class="contact">
+      <h2>Contact</h2>
+      <form
+        id="contactForm"
+        action="https://formsubmit.co/nicholasjeremyhh@gmail.com"
+        method="POST"
+      >
+        <input type="text" name="name" placeholder="Nama" required />
+        <input type="email" name="email" placeholder="Email" required />
+        <input type="text" name="subject" placeholder="Subjek" required />
+        <textarea
+          name="message"
+          placeholder="Pesan"
+          rows="5"
+          required
+        ></textarea>
+        <button type="submit">Kirim Pesan</button>
+      </form>
+    </section>
+    <!-- Contact End -->
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>&copy; 2025 Nicholas Jeremy Hendrajaya. All Rights Reserved.</p>
+    </footer>
+    <!-- Footer End -->
+  </body>
+</html>

@@ -1,0 +1,121 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #2e7d32;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 2rem;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.navbar-title {
+  font-weight: bold;
+  color: white;
+  margin-left: 1.5rem;
+}
+
+.navbar-nav {
+  margin-right: 6rem;
+}
+
+.navbar-nav a {
+  font-size: 1.125rem;
+  color: white;
+  text-decoration: none;
+  margin: 1rem;
+}
+
+.navbar-nav a:hover {
+  text-decoration: underline;
+}
+/* Navbar End */
+
+/* Materi */
+.materi-content {
+  width: 80%;
+  margin: 100px auto 40px;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+}
+/* Materi End */
+
+/* Footer */
+.footer {
+  background-color: #2e7d32;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 1rem;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+/* Footer End */
+
+/* Burger Menu */
+.burger-menu {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.burger-menu div {
+  width: 30px;
+  height: 4px;
+  background-color: white;
+  margin: 5px 0;
+  border-radius: 2px;
+}
+/* Burger Menu End */
+
+/* Responsive */
+@media screen and (max-width: 900px) {
+  .burger-menu {
+    display: flex;
+    margin-right: 5rem;
+    z-index: 1100;
+  }
+
+  .navbar-nav {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    right: -1000%;
+    width: 120%;
+    height: 100vh;
+    background-color: #2e7d32;
+    padding-top: 60px;
+    box-shadow: -4px 0 6px rgba(0, 0, 0, 0.1);
+    transition: right 0.3s ease-in-out;
+    text-align: center;
+    align-items: center;
+  }
+
+  .navbar-nav.active {
+    right: -26%;
+  }
+
+  .navbar-nav a {
+    padding: 15px;
+    display: block;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  }
+}
+/* Responsive End */

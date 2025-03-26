@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- JS -->
+    <script src="js/script-index.js"></script>
+
+    <!-- CSS -->
+    <link href="css/style.css" rel="stylesheet" />
+
+    <!-- Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>UTS - Nicholas Jeremy Hendrajaya</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <h1 class="navbar-title">Nicholas-J</h1>
+      <div class="burger-menu">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <div class="navbar-nav">
+        <a href="index.html">Home</a>
+        <a href="contact.html">Contact</a>
+        <a href="about-me.html">About Me</a>
+        <a href="pemrograman-web.html">Pemrograman Web</a>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Home Page -->
+    <section class="home">
+      <div class="home-content">
+        <div class="text-content">
+          <h1 class="creator">Nicholas Jeremy Hendrajaya</h1>
+          <p class="overview">
+            Mahasiswa Ilmu Komputer di Universitas Singaperbangsa Karawang.
+          </p>
+          <div class="skills-experience">
+            <h3>Keterampilan</h3>
+            <ul>
+              <li>Pengembangan Web (HTML, CSS, JavaScript)</li>
+              <li>Backend (Java & C++)</li>
+              <li>Manajemen Basis Data (MySQL)</li>
+            </ul>
+            <h3>Pengalaman</h3>
+            <ul>
+              <li>
+                Mengembangkan aplikasi pencatatan keuangan pribadi dengan Java
+              </li>
+              <li>Berkontribusi dalam proyek kelompok di universitas</li>
+            </ul>
+          </div>
+        </div>
+        <div class="profile-image">
+          <img src="img/profile.jpg" alt="Foto Profil" />
+        </div>
+      </div>
+    </section>
+    <!-- Home Page End -->
+
+    <!-- About Me -->
+    <section id="about" class="about">
+      <h2>About Me</h2>
+      <div class="row">
+        <div class="about-img">
+          <img src="img/about-me.jpeg" alt="Tentang Saya" />
+        </div>
+        <div class="content">
+          <p>
+            Nama saya Nicholas Jeremy Hendrajaya. Saya mahasiswa Ilmu Komputer
+            di Universitas Singaperbangsa. Saya memiliki minat besar dalam
+            teknologi dan pemrograman, serta selalu ingin belajar lebih banyak
+            tentang inovasi di bidang ini. Selain coding, saya juga senang
+            mengeksplorasi berbagai proyek IT. Saya memiliki pengalaman bekerja
+            dalam proyek kelompok maupun individu. Saya percaya bahwa teknologi
+            dapat mengubah kehidupan, dan saya bersemangat untuk menjadi bagian
+            dari perubahan ini.
+          </p>
+          <a href="files/cv.pdf" class="download-button" download
+            >Download CV</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- About Me End -->
+
+    <!-- Contact -->
+    <section class="contact">
+      <h2>Contact</h2>
+      <form
+        id="contactForm"
+        action="https://formsubmit.co/nicholasjeremyhh@gmail.com"
+        method="POST"
+      >
+        <input type="text" name="name" placeholder="Nama" required />
+        <input type="email" name="email" placeholder="Email" required />
+        <input type="text" name="subject" placeholder="Subjek" required />
+        <textarea
+          name="message"
+          placeholder="Pesan"
+          rows="5"
+          required
+        ></textarea>
+        <button type="submit">Kirim Pesan</button>
+      </form>
+    </section>
+    <!-- Contact End -->
+
+    <!-- Pemrograman Web -->
+    <section class="pemrograman-web">
+      <h2>Pemrograman Web</h2>
+      <div class="card-container">
+        <div class="card">
+          <h3>Materi Pertemuan 1</h3>
+          <p>Pengenalan HTML dan struktur dasar halaman web.</p>
+          <a href="materi1.html" class="btn">Pelajari</a>
+        </div>
+        <div class="card">
+          <h3>Materi Pertemuan 2</h3>
+          <p>Dasar-dasar CSS untuk menghias tampilan web.</p>
+          <a href="materi2.html" class="btn">Pelajari</a>
+        </div>
+        <div class="card">
+          <h3>Materi Pertemuan 3</h3>
+          <p>Pengenalan JavaScript untuk membuat halaman lebih interaktif.</p>
+          <a href="materi3.html" class="btn">Pelajari</a>
+        </div>
+        <div class="card">
+          <h3>Materi Pertemuan 4</h3>
+          <p>Pengenalan PHP dan konsep pemrograman web.</p>
+          <a href="materi4.html" class="btn">Pelajari</a>
+        </div>
+        <div class="card">
+          <h3>Materi Pertemuan 5</h3>
+          <p>Mengontrol alur program dari sebuah web.</p>
+          <a href="materi5.html" class="btn">Pelajari</a>
+        </div>
+        <div class="card">
+          <h3>Materi Pertemuan 6</h3>
+          <p>Perulangan dalam bahasa pemrograman PHP.</p>
+          <a href="materi6.html" class="btn">Pelajari</a>
+        </div>
+        <div class="card">
+          <h3>Materi Array</h3>
+          <p>Penggunaan array dalam PHP.</p>
+          <a href="materiarray.html" class="btn">Pelajari</a>
+        </div>
+      </div>
+    </section>
+    <!-- Pemrograman Web End -->
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>&copy; 2025 Nicholas Jeremy Hendrajaya. All Rights Reserved.</p>
+    </footer>
+    <!-- Footer End -->
+  </body>
+</html>

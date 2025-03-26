@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS -->
+    <link href="css/style-materi.css" rel="stylesheet" />
+
+    <!-- JS -->
+    <script src="js/script-materi.js"></script>
+
+    <!-- Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Materi Pertemuan 2</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <h1 class="navbar-title">Nicholas-J</h1>
+      <div class="burger-menu">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <div class="navbar-nav">
+        <a href="index.html">Home</a>
+        <a href="contact.html">Contact</a>
+        <a href="about-me.html">About Me</a>
+        <a href="pemrograman-web.html">Pemrograman Web</a>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Materi -->
+    <section class="materi-content">
+      <h2>Materi Pertemuan 2: CSS</h2>
+      <p>
+        CSS (Cascading Style Sheets) adalah bahasa yang digunakan untuk mengatur
+        tampilan dan tata letak halaman web. Dengan CSS, kita dapat mengubah
+        warna, ukuran font, margin, padding, dan berbagai aspek desain lainnya.
+      </p>
+
+      <p>Ada tiga cara penggunaan CSS dalam HTML:</p>
+      <ul>
+        <li>
+          Inline CSS: Menulis langsung di dalam tag HTML dengan atribut
+          <code>style</code>.
+        </li>
+        <li>
+          Internal CSS: Ditulis di dalam tag <code>&lt;style&gt;</code> di
+          bagian <code>&lt;head&gt;</code>.
+        </li>
+        <li>
+          External CSS: Ditulis di file terpisah dengan ekstensi
+          <code>.css</code> dan dipanggil di dalam HTML menggunakan tag
+          <code>&lt;link&gt;</code>.
+        </li>
+      </ul>
+
+      <h2>Selektor dan Properti CSS</h2>
+      <p>
+        CSS menggunakan selektor untuk memilih elemen yang akan diberi gaya.
+        Contoh selektor umum:
+      </p>
+      <ul>
+        <li>
+          <code>p { color: blue; }</code> - Mengubah warna teks paragraf menjadi
+          biru.
+        </li>
+        <li>
+          <code>#header { background-color: lightgray; }</code> - Mengatur latar
+          belakang elemen dengan ID <code>header</code>.
+        </li>
+        <li>
+          <code>.btn { font-size: 20px; }</code> - Mengatur ukuran font untuk
+          elemen dengan kelas <code>btn</code>.
+        </li>
+      </ul>
+
+      <h2>Responsivitas dengan CSS</h2>
+      <p>
+        CSS juga mendukung desain responsif menggunakan media query, misalnya:
+      </p>
+      <pre>
+          @media (max-width: 600px) {
+              body { background-color: lightgray; }
+          }
+      </pre>
+      <p>Dengan ini, tampilan akan menyesuaikan ukuran layar pengguna.</p>
+      <img
+        src="img/css.png"
+        alt="Gambar Materi"
+        class="materi-image"
+        style="width: 40%"
+      />
+    </section>
+    <!-- Materi End -->
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>&copy; 2025 Nicholas Jeremy Hendrajaya. All Rights Reserved.</p>
+    </footer>
+    <!-- Footer End -->
+  </body>
+</html>

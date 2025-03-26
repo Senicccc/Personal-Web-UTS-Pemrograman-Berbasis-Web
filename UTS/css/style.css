@@ -1,0 +1,493 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #2e7d32;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 2rem;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.navbar-title {
+  font-weight: bold;
+  color: white;
+  margin-left: 1.5rem;
+}
+
+.navbar-nav {
+  margin-right: 6rem;
+}
+
+.navbar-nav a {
+  font-size: 1.125rem;
+  color: white;
+  text-decoration: none;
+  margin: 1rem;
+}
+
+.navbar-nav a:hover {
+  text-decoration: underline;
+}
+/* Navbar End */
+
+/* Home */
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #e8f5e9;
+  padding-top: 6rem;
+}
+
+.home-content {
+  margin-top: 15rem;
+  padding-top: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 70rem;
+  width: 100%;
+  margin-bottom: 36rem;
+}
+
+.text-content {
+  margin-left: 4rem;
+  max-width: 60rem;
+}
+
+.creator {
+  font-size: 2.5rem;
+  font-weight: bolder;
+  color: black;
+}
+
+.overview {
+  font-size: 1rem;
+  color: black;
+  margin-bottom: 1.25rem;
+}
+
+.profile-image img {
+  width: 18.75rem;
+  height: 18.75rem;
+  border-radius: 50%;
+  border: 0.4rem solid #2e7d32;
+  object-fit: cover;
+}
+/* Home End */
+
+/* About Me */
+.about {
+  padding: 8rem 7% 1.4rem;
+  text-align: center;
+  background-color: #424242;
+  color: white;
+  padding-bottom: 2rem;
+}
+
+.about h2 {
+  font-size: 3rem;
+  margin-bottom: 3rem;
+}
+
+.about .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.about .about-img {
+  flex: 1 1 40rem;
+  display: flex;
+  justify-content: center;
+}
+
+.about .about-img img {
+  width: 100%;
+  max-width: 400px;
+  border: 3px solid white;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.about .content {
+  flex: 1 1 35rem;
+  text-align: left;
+  max-width: 85%;
+}
+
+.about .content h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.about .content p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.download-button {
+  display: inline-block;
+  background-color: #2e7d32;
+  color: white;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+.download-button:hover {
+  background-color: #256b2c;
+}
+
+/* About Me End */
+
+/* Contact */
+.contact {
+  padding: 4rem 7%;
+  text-align: center;
+  background-color: #f5f5f5;
+}
+
+.contact h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #2e7d32;
+}
+
+.contact form {
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact label {
+  display: block;
+  text-align: left;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.contact input,
+.contact textarea {
+  width: calc(100% - 1.6rem);
+  padding: 0.8rem;
+  margin-top: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact button {
+  display: block;
+  width: 100%;
+  margin-top: 1.5rem;
+  padding: 0.8rem;
+  border: none;
+  background-color: #2e7d32;
+  color: white;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact button:hover {
+  background-color: #256b2c;
+}
+/* Contact End */
+
+/* Pemrograman Web */
+.pemrograman-web {
+  text-align: center;
+  padding: 4rem 7%;
+  background-color: #424242;
+  color: white;
+}
+
+.pemrograman-web h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: white;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.card {
+  background: #616161;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  text-align: center;
+}
+
+.card h3 {
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+}
+
+.card p {
+  color: #ffffff;
+}
+
+.card a {
+  display: inline-block;
+  width: 80%;
+  margin-top: 1rem;
+  padding: 0.8rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  text-align: center;
+  text-decoration: none;
+  background-color: #2e7d32;
+  color: white;
+}
+
+.card a:hover {
+  background-color: #256b2c;
+}
+/* Pemrograman Web End */
+
+/* Footer */
+.footer {
+  background-color: #2e7d32;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 1rem;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+/* Footer End */
+
+/* Burger Menu */
+.burger-menu {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.burger-menu div {
+  width: 30px;
+  height: 4px;
+  background-color: white;
+  margin: 5px 0;
+  border-radius: 2px;
+}
+
+/* Burger End */
+
+/* Responsive */
+@media screen and (max-width: 1024px) {
+  .home {
+    padding-top: 10rem;
+  }
+
+  .home-content {
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+  }
+
+  .profile-image {
+    margin-top: 0;
+  }
+
+  .profile-image img {
+    width: 16rem;
+    height: 16rem;
+  }
+
+  .text-content {
+    max-width: 80%;
+    margin: 1rem auto;
+  }
+
+  .about .about-img img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .burger-menu {
+    display: flex;
+    margin-right: 5rem;
+    z-index: 2000;
+  }
+
+  .navbar-nav {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    right: -1000%;
+    width: 120%;
+    height: 100vh;
+    background-color: #2e7d32;
+    padding-top: 60px;
+    transition: right 0.3s ease-in-out;
+    text-align: center;
+    align-items: center;
+  }
+
+  .navbar-nav.active {
+    right: -26%;
+  }
+
+  .navbar-nav a {
+    padding: 15px;
+    display: block;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .burger-menu {
+    display: flex;
+    margin-right: 5rem;
+    z-index: 2000;
+  }
+
+  .navbar-nav {
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: -1000%;
+    width: 120%;
+    height: 100vh;
+    background-color: #2e7d32;
+    padding-top: 60px;
+    transition: right 0.3s ease-in-out;
+    text-align: center;
+    align-items: center;
+  }
+
+  .navbar-nav.active {
+    display: flex;
+  }
+
+  .burger {
+    display: flex;
+  }
+
+  .home {
+    padding-top: 21rem;
+  }
+
+  .home-content {
+    margin-top: 20rem;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 20rem;
+  }
+
+  .profile-image {
+    margin-top: 10rem;
+    order: -1;
+  }
+
+  .profile-image img {
+    width: 14rem;
+    height: 14rem;
+  }
+
+  .about {
+    padding: 6rem 5%;
+  }
+
+  .about .row {
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  .about .about-img img {
+    width: 100%;
+    max-width: 360px;
+    height: auto;
+  }
+
+  .about .content {
+    text-align: center;
+    max-width: 90%;
+  }
+
+  .about .content h3 {
+    font-size: 1.8rem;
+  }
+
+  .about .content p {
+    font-size: 1.1rem;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 350px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .navbar {
+    padding: 0.7rem 1rem;
+  }
+
+  .navbar-title {
+    margin-left: 0.3rem;
+    font-size: 1rem;
+  }
+
+  .home {
+    padding-top: 22rem;
+  }
+
+  .profile-image img {
+    width: 12rem;
+    height: 12rem;
+  }
+
+  .about .about-img img {
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+  }
+
+  .footer {
+    font-size: 0.9rem;
+  }
+}
+/* Responsive End */
